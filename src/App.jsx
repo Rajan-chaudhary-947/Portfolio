@@ -8,6 +8,7 @@ import Footer from './component/Footer.jsx';
 import Education from './component/Education.jsx';
 import Course from './component/Course.jsx';
 import Contact from './component/Contact.jsx';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Footer/>
         </div>
     </div>
+    <Analytics />
     </>
   )
 }
