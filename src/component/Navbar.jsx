@@ -26,7 +26,6 @@ const Navbar = () => {
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
-    { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
   ];
@@ -108,7 +107,7 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <li
                 key={item.id}
-                className={`cursor-pointer hover:text-white ${
+                className={`cursor-pointer hover:text-sky-400 ${
                   activeSection === item.id ? "text-sky-400" : ""
                 }`}
               >

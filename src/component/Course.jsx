@@ -43,7 +43,7 @@ const Course = () => {
       <div className="sticky top-[12rem] md:top-[10rem] h-[85vh] flex items-center overflow-hidden">
         <motion.div
           style={{ x }}
-          className="flex gap-12 px-[5vw] md:px-[12vw] touch-pan-x"
+          className="flex gap-12 px-[5vw] md:px-[10vw] touch-pan-x"
         >
           {course.map((item) => (
             <div
