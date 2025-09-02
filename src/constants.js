@@ -192,7 +192,7 @@ export const projects = [
     description:
       "A full-stack web app to connect students with alumni for networking, updates, resource and knowledge sharing. including features like profile creation, event management, and discussion forums.",
     image: communityLogo,
-  tags: ["HTML", "Tailwind CSS", "JavaScript", "React JS", "Node.js", "Express", "MongoDB", "Socket.io", "JWT"],
+  tags: ["HTML", "Tailwind CSS", "JavaScript", "React JS", "Node.js", "Express", "MongoDB", "Zustand", "Socket.io", "JWT"],
     github: "TBD soon",
     webapp: "TBD soon",
   },
@@ -202,7 +202,7 @@ export const projects = [
     description:
       "A full-stack real-time chat application that enables users to create accounts, log in securely using JWT authentication, and exchange instant messages. Built using the MERN stack with Socket.io for real-time communication, the app features responsive design, persistent chat history, and modern UI/UX.",
     image: chatAppLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript", "Socket.io", "JWT"],
+    tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript", "Zustand", "Socket.io", "JWT"],
     github: "TBD soon",
     webapp: "TBD soon",
   },
