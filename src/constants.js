@@ -192,7 +192,7 @@ export const projects = [
     description:
       "A full-stack web app to connect students with alumni for networking, updates, resource and knowledge sharing. including features like profile creation, event management, and discussion forums.",
     image: communityLogo,
-  tags: ["HTML", "Tailwind CSS", "JavaScript", "React JS", "Node.js", "Express", "MongoDB", "Zustand", "Socket.io", "JWT"],
+  tags: ["HTML", "Tailwind CSS", "JavaScript", "React JS", "Node.js", "Express", "MongoDB", "Zustand", "Socket.io", "JWT", "Integrated AI"],
     github: "TBD soon",
     webapp: "TBD soon",
   },
