@@ -3,7 +3,6 @@ import About from './component/About.jsx';
 import Skills from './component/Skills.jsx';
 import BlurBlob from './component/BlurBlob.jsx';
 import Projects from './component/Projects.jsx';
-import Experience from './component/Experience.jsx';
 import Footer from './component/Footer.jsx';
 import Education from './component/Education.jsx';
 import Course from './component/Course.jsx';
