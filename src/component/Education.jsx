@@ -15,6 +15,7 @@ const Education = () => {
         </p>
       </div>
 
+
       {/* Education Timeline */}
       <div className="relative">
         {/* Vertical line */}
