@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_PUBLIC_PATH || "/Portfolio",
+  base: process.env.VERCEL ? "/" : (process.env.VITE_PUBLIC_PATH || "/Portfolio/"),
 })
