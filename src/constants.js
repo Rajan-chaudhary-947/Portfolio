@@ -59,7 +59,8 @@ export const SkillsInfo = [
       { name: 'Zustand', logo: zustandLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      
+      { name: 'Next JS', logo: nextjsLogo },
+      { name: 'TypeScript', logo: typeLogo },
     ],
   },
   {
@@ -70,8 +71,10 @@ export const SkillsInfo = [
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Express JS', logo: expressjsLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'Springboot', logo: springbootLogo },
+      { name: 'WebSocket', logo: websocketLogo },
+      { name: 'Google OAuth', logo: googleLogo },
+      { name: 'Razorpay', logo: razorLogo },
+      { name: 'Mongoose', logo: mongooseLogo },
     ],
   },
   {
@@ -79,7 +82,6 @@ export const SkillsInfo = [
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
     ],
   },
@@ -94,6 +96,10 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Excalidraw', logo: excaliLogo },
+      { name: 'Docker', logo: dockerLogo },
+      { name: 'Cloudnary', logo: cloudnaryLogo },
+      { name: 'Supabase', logo: supabaseLogo },
+      
     ],
   },
   {
