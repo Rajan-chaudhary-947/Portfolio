@@ -1,19 +1,10 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { course } from "../constants";
 
-const CARD_WIDTH = 320;
-const GAP = 48; // px, matches gap-8
-const TOTAL_WIDTH = course.length * CARD_WIDTH + (course.length - 1) * GAP;
-const VIEWPORT_WIDTH = 0.75;
 
 const Course = () => {
   const targetRef = useRef(null);
-  const scrollSectionHeight = Math.max(
-    100,
-    ((TOTAL_WIDTH / (window.innerWidth * VIEWPORT_WIDTH)) * 100)
-  );
-
   const { scrollYProgress } = useScroll({
     target: targetRef,
     offset: ["start start", "end end"],

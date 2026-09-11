@@ -27,15 +27,15 @@ import cnLogo from './assets/tech_logo/cn.png';
 import zustandLogo from './assets/tech_logo/zustand.png';
 
 // Newly added/required skill logos
-import nextjsLogo from './assets/tech_logo/nextjs.png';
+import nextjsLogo from './assets/tech_logo/nextjsLogo.jpg';
 import typeLogo from './assets/tech_logo/typescript.png';
-import websocketLogo from './assets/tech_logo/websocket.png';
-import googleLogo from './assets/tech_logo/google.png';
-import razorLogo from './assets/tech_logo/razorpay.png';
-import mongooseLogo from './assets/tech_logo/mongoose.png';
-import dockerLogo from './assets/tech_logo/docker.png';
-import cloudnaryLogo from './assets/tech_logo/cloudnary.png';
-import supabaseLogo from './assets/tech_logo/supabase.png';
+import websocketLogo from './assets/tech_logo/websocketLogo.png';
+import googleLogo from './assets/tech_logo/googleLogo.jpg';
+import razorLogo from './assets/tech_logo/razorLogo.png';
+import mongooseLogo from './assets/tech_logo/mongooseLogo.jpg';
+import dockerLogo from './assets/tech_logo/dockerLogo.png';
+import cloudnaryLogo from './assets/tech_logo/cloudnaryLogo.jpeg';
+import supabaseLogo from './assets/tech_logo/supabaseLogo.png';
 
 // Experience Section Logo's
 
@@ -204,7 +204,7 @@ export const projects = [
     id: 0,
     title: "Student Alumini Community",
     description:
-      "A full-stack web app to connect students with alumni for networking, updates, resource and knowledge sharing. including features like profile creation, event management, and discussion forums."[...]
+      "A full-stack web app to connect students with alumni for networking, updates, resource and knowledge sharing. including features like profile creation, event management, and discussion forums.",
     image: communityLogo,
   tags: ["HTML", "Tailwind CSS", "JavaScript", "React JS", "Node.js", "Express", "MongoDB", "Zustand", "Socket.io", "JWT", "Integrated AI"],
     github: "TBD soon",
@@ -214,7 +214,7 @@ export const projects = [
     id: 1,
     title: "Chat App",
     description:
-      "A full-stack real-time chat application that enables users to create accounts, log in securely using JWT authentication, and exchange instant messages. Built using the MERN stack with Socket.io[...]"
+      "A full-stack real-time chat application that enables users to create accounts, log in securely using JWT authentication, and exchange instant messages. Built using the MERN stack with Socket.io.",
     image: chatAppLogo,
     tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript", "Zustand", "Socket.io", "JWT"],
     github: "TBD soon",
@@ -224,7 +224,7 @@ export const projects = [
     id: 2,
     title: "Airbnb Clone",
     description:
-      "Inspired by Airbnb's layout, Designed with a familiar user interface with a personal touch. Users can perform CRUD operations on property listings managing fields such as title, price, image, l[...]"
+      "Inspired by Airbnb's layout, Designed with a familiar user interface with a personal touch. Users can perform CRUD operations on property listings managing fields such as title, price, image, location, and description. The app is built using the MERN stack, ensuring a seamless and responsive experience for users.",
     image: airLogo,
     tags: [ "MongoDB", "Express", "React JS", "NodeJS", "JavaScript", "BootStrap", "EJS", "JWT", "Socket.io"],
     github: "TBD soon",
@@ -244,7 +244,7 @@ export const projects = [
     id: 4,
     title: "Weather App",
     description:
-      "A simple and efficient web application that fetches and shows the current weather for any city worldwide, including temperature, humidity, wind speed, and conditions like sunny, cloudy, or rain[...]"
+      "A simple and efficient web application that fetches and shows the current weather for any city worldwide, including temperature, humidity, wind speed, and conditions like sunny, cloudy, or rain.",
     image: weatherAppLogo,
     tags: ["HTML", "CSS", "JavaScript", "API"],
     github: "TBD soon",

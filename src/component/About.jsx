@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from "../assets/Rajan chaudhary.png";
@@ -14,7 +13,7 @@ const About = () => {
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
           {/* Greeting */}
           <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold text-white mb-2 leading-tight">
-            Hi, I'm
+            Hi, I&apos;m
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-sky-400 mb-4 leading-tight">
@@ -49,7 +48,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1uHh16HUA_2raS25vpSH0bZXvJ6raSaYy/view?usp=sharing"
+            href="https://drive.google.com/file/d/1RCZluYCAS6iQTLSEkIj74Zp6Vrf2tf-g/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
