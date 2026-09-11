@@ -8,15 +8,12 @@ import reduxLogo from './assets/tech_logo/redux.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
 import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
@@ -28,6 +25,17 @@ import excaliLogo from './assets/tech_logo/excalidraw.png';
 import softwareLogo from './assets/tech_logo/software.png';
 import cnLogo from './assets/tech_logo/cn.png';
 import zustandLogo from './assets/tech_logo/zustand.png';
+
+// Newly added/required skill logos
+import nextjsLogo from './assets/tech_logo/nextjs.png';
+import typeLogo from './assets/tech_logo/typescript.png';
+import websocketLogo from './assets/tech_logo/websocket.png';
+import googleLogo from './assets/tech_logo/google.png';
+import razorLogo from './assets/tech_logo/razorpay.png';
+import mongooseLogo from './assets/tech_logo/mongoose.png';
+import dockerLogo from './assets/tech_logo/docker.png';
+import cloudnaryLogo from './assets/tech_logo/cloudnary.png';
+import supabaseLogo from './assets/tech_logo/supabase.png';
 
 // Experience Section Logo's
 
@@ -124,7 +132,7 @@ export const education = [
     school: "IIMT University, Meerut",
     date: "Sept 2022 - July 2026",
     grade: "7.5 SGPA*",
-    desc: "I'm a student of Bachelor's degree (B.Tech.) in Computer Science IIMT University, Meerut. During my time at IIMT, I gain a strong foundation in programming, software development, and computer science principles. I study courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participate in various workshops and technical events, which enhance my skills and knowledge. My experience at IIMT University is instrumental in shaping my technical abilities and professional growth.",
+    desc: "I'm a student of Bachelor's degree (B.Tech.) in Computer Science IIMT University, Meerut. During my time at IIMT, I gain a strong foundation in programming, software development, and comput[...]",
     degree: "Bachelor of Technology - B.Tech CSE",
   },
   {
@@ -196,7 +204,7 @@ export const projects = [
     id: 0,
     title: "Student Alumini Community",
     description:
-      "A full-stack web app to connect students with alumni for networking, updates, resource and knowledge sharing. including features like profile creation, event management, and discussion forums.",
+      "A full-stack web app to connect students with alumni for networking, updates, resource and knowledge sharing. including features like profile creation, event management, and discussion forums."[...]
     image: communityLogo,
   tags: ["HTML", "Tailwind CSS", "JavaScript", "React JS", "Node.js", "Express", "MongoDB", "Zustand", "Socket.io", "JWT", "Integrated AI"],
     github: "TBD soon",
@@ -206,7 +214,7 @@ export const projects = [
     id: 1,
     title: "Chat App",
     description:
-      "A full-stack real-time chat application that enables users to create accounts, log in securely using JWT authentication, and exchange instant messages. Built using the MERN stack with Socket.io for real-time communication, the app features responsive design, persistent chat history, and modern UI/UX.",
+      "A full-stack real-time chat application that enables users to create accounts, log in securely using JWT authentication, and exchange instant messages. Built using the MERN stack with Socket.io[...]"
     image: chatAppLogo,
     tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript", "Zustand", "Socket.io", "JWT"],
     github: "TBD soon",
@@ -216,7 +224,7 @@ export const projects = [
     id: 2,
     title: "Airbnb Clone",
     description:
-      "Inspired by Airbnb's layout, Designed with a familiar user interface with a personal touch. Users can perform CRUD operations on property listings managing fields such as title, price, image, location and description. ",
+      "Inspired by Airbnb's layout, Designed with a familiar user interface with a personal touch. Users can perform CRUD operations on property listings managing fields such as title, price, image, l[...]"
     image: airLogo,
     tags: [ "MongoDB", "Express", "React JS", "NodeJS", "JavaScript", "BootStrap", "EJS", "JWT", "Socket.io"],
     github: "TBD soon",
@@ -236,7 +244,7 @@ export const projects = [
     id: 4,
     title: "Weather App",
     description:
-      "A simple and efficient web application that fetches and shows the current weather for any city worldwide, including temperature, humidity, wind speed, and conditions like sunny, cloudy, or rainy",
+      "A simple and efficient web application that fetches and shows the current weather for any city worldwide, including temperature, humidity, wind speed, and conditions like sunny, cloudy, or rain[...]"
     image: weatherAppLogo,
     tags: ["HTML", "CSS", "JavaScript", "API"],
     github: "TBD soon",
